@@ -15,11 +15,24 @@
                 <label>Create a New Password: <input type="password" required pattern="[a-z0-5]{8,}"/></label>
             </fieldset>
             <fieldset>
-                <label><input type="radio"/> Personal Account</label>
-                <label><input type="radio"/> Business Account</label>
-                <label><input type="checkbox" required/> I accept the terms and conditions</label>
+                <label><input name="account-type" type="radio"/> Personal Account</label>
+                <label><input name="account-type" type="radio"/> Business Account</label>
+                <label><input type="checkbox" required/> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
             </fieldset>
-            <fieldset></fieldset>
+            <fieldset>
+                <label>Input your age (years): <input type="number" min="13" max="120"></label>
+                <label>Upload a profile picture: <input type="file"></label>
+                <label>How did you hear about us? 
+                    <select>
+                        <option value="">(select one)</option>
+                        <option value="1">freeCodeCamp News</option>
+                        <option value="2">freeCodeCamp YouTube Channel</option>
+                        <option value="3">freeCodeCamp Forum</option>
+                        <option value="4">Other</option>
+                    </select>
+                </label>
+                <label>Provide a bio: <textarea rows="3" cols="30" placeholder="I like coding on the beach..."></textarea></label>
+            </fieldset>
             <input type="submit" value="Submit">
         </form>
     </body>
