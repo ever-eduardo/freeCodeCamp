@@ -12,6 +12,9 @@ body {
     width: 25%;
     height: 300px;
     object-fit: cover;
+    margin-top: 8px;
+    padding: 0 4px;
+    border-radius: 10px;
 }
 
 .header {
@@ -27,4 +30,17 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0 4px;
+}
+
+@media (max-width: 800px) {
+    #gallery img {
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    #gallery img {
+        width: 100%;
+    }
 }
