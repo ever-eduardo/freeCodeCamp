@@ -11,6 +11,7 @@ body {
 #gallery img {
     width: 25%;
     height: 300px;
+    object-fit: cover;
 }
 
 .header {
@@ -21,4 +22,9 @@ body {
 
 #gallery {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4px;
 }
