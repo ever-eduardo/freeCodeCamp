@@ -1,0 +1,37 @@
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title, #description {
+    color: rebeccapurple;
+    text-align: center;
+}
+
+#title {
+    margin-top: 50px;
+}
+
+#description {
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+#survey-form {
+    margin-left: 23em;
+    margin-right: 23em;
+    background-color:darkcyan;
+    border-radius: 5px;
+}
+
+#name-label, #email-label, #number-label {
+    display: block;
+    color: aliceblue;
+    margin-bottom: 1.5em;
+    margin-left: 10px;
+}
+
+#name, #email, #number {
+    display: block;
+    margin-left: 10px;
+}
