@@ -41,7 +41,7 @@
                     <div class="question-block">
                         <p>1</p>
                         <fieldset class="question" name="question-1">
-                            <legend>Do you know html?</legend>
+                            <legend>The legend element represents a caption for the content of its parent fieldset element </legend>
                             <ul class="answers-list">
                                 <li>
                                     <label for="q1-a1"><input name="q1" id="q1-a1" type="radio" value="True"> True</label>
@@ -55,7 +55,7 @@
                     <div class="question-block">
                         <p>2</p>
                         <fieldset class="question" name="question-2">
-                            <legend>Do you want to learn (more) html?</legend>
+                            <legend>A label element nesting an input element is required to have a for attribute with the same value as the input's id </legend>
                             <ul class="answers-list">
                                 <li>
                                     <label for="q2-a1"><input name="q2" id="q2-a1" type="radio" value="True"> True</label>
@@ -69,6 +69,22 @@
                 </section>
                 <section role="region" aria-labelledby="css-questions">
                     <h2 id="css-questions">CSS Questions</h2>
+                    <div class="formrow">
+                        <div class="question-block">
+                            <label>Are you a front-end developer?</label>
+                        </div>
+                        <div class="answer">
+                            <select required>
+                                <option value="">Select an option</option>
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                        </div>
+                        <div class="question-block">
+                            <label>Do you have any questions?</label>
+                        </div>
+                        <div class="answer"></div>
+                    </div>
                 </section>
             </form>
         </main>
