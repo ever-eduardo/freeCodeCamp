@@ -107,6 +107,10 @@ input {
     font-size: 20px;
 }
 
+.info input, input label {
+    text-align: right;
+}
+
 .info > input {
     width: 50%;
     text-align: left;
@@ -115,4 +119,12 @@ input {
 .info > label {
     width: 10%;
     min-width: 55px;
+}
+
+.info label, .info input {
+    display: inline-block;
+}
+
+.info input, input label {
+    text-align: right;
 }
