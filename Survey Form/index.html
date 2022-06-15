@@ -20,7 +20,7 @@
             </section>
             <section class="section-current-role">
                 <label for="dropdwon">Which option best describes your current role?</label>
-                <select id="dropdown" required>
+                <select id="dropdown">
                     <option>Select current role</option>
                     <option>Student</option>
                     <option>Full Time Job</option>
@@ -31,9 +31,9 @@
             </section>
             <section class="section-recommendation">
                 <label>Would you recommend freeCodeCamp to a friend?</label>
-                <label><input name="recommendation" type="radio"> Definitely</label>
-                <label><input name="recommendation" type="radio"> Maybe</label>
-                <label><input name="recommendation" type="radio"> Not sure</label>
+                <label><input name="recommendation" value="1" type="radio"> Definitely</label>
+                <label><input name="recommendation" value="2" type="radio"> Maybe</label>
+                <label><input name="recommendation" value="3" type="radio"> Not sure</label>
             </section>
             <section class="section-fav-feature">
                 <label>What is your favorite feature of freeCodeCamp?</label>
@@ -63,7 +63,7 @@
                 <label>Any comments or suggestions?</label>
                 <textarea placeholder="Enter your comments here..."></textarea>
             </section>
-            <button type="submit">Submit</button>
+            <button type="submit" id="submit" class="submit">Submit</button>
         </form>
     </body>
 </html>
