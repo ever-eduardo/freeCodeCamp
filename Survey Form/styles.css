@@ -1,3 +1,7 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
     background-color: lightgoldenrodyellow;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -18,20 +22,22 @@ body {
 }
 
 #survey-form {
-    margin-left: 23em;
-    margin-right: 23em;
+    margin-left: 20em;
+    margin-right: 20em;
     background-color:darkcyan;
     border-radius: 5px;
 }
 
-#name-label, #email-label, #number-label {
+label {
     display: block;
     color: aliceblue;
-    margin-bottom: 1.5em;
-    margin-left: 10px;
+    margin-left: 1.5em;
+    padding-top: 1.5em;
 }
 
 #name, #email, #number {
     display: block;
-    margin-left: 10px;
+    margin-left: 1.5em;
+    font-size: 1em;
+    width: 90%;
 }
