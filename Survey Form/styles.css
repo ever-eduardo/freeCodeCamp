@@ -5,6 +5,7 @@ html {
 body {
     background-color: lightgoldenrodyellow;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 2.5em;
 }
 
 #title, #description {
@@ -33,11 +34,14 @@ label {
     color: aliceblue;
     margin-left: 1.5em;
     padding-top: 1.5em;
+    font-size: 1.125em;
+    margin-bottom: 0.5em;
 }
 
-#name, #email, #number {
+#name, #email, #number, #dropdown {
     display: block;
     margin-left: 1.5em;
     font-size: 1em;
     width: 90%;
+    font-size: inherit;
 }
