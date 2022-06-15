@@ -56,3 +56,24 @@ textarea {
     font-size: inherit;
     font-family: inherit;
 }
+
+.submit {
+    color: darkcyan;
+    border: 1px solid darkcyan;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border-radius: 2px;
+    background: lightgoldenrodyellow;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0.75rem;
+}
+
+.submit:hover {
+    color: lightgoldenrodyellow;
+    background: darkcyan;
+    border: 1px solid lightgoldenrodyellow;
+}
