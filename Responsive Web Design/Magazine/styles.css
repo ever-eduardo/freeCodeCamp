@@ -43,3 +43,25 @@ main {
 .text {
     grid-column: 2 / 3;
 }
+
+.hero {
+    grid-column: 1 / -1;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero-title {
+    text-align: center;
+    color: orangered;
+    font-size: 8rem;
+}
+
+.her-subtitle {
+    font-size: 2.4rem;
+    color: orangered;
+    text-align: center;
+}
