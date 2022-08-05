@@ -41,8 +41,8 @@
 }
 
 .logo {
-    width: 50%;
-    height: 50%;
+    width: 6vh;
+    height: 5%;
 }
 
 #header-img {
@@ -84,4 +84,23 @@
 #features {
     font-family: sans-serif;
     display: grid;
+}
+
+@media screen and (max-width: 600px) {
+    #header {
+        display: block;
+    }
+    .nav-bar ul {
+        display: block;
+    }
+    .nav-bar li {
+        display: block;
+        border: 1px solid;
+    }
+    .logo {
+        display: block;
+        text-align: center;
+        height: 10%;
+        width: 100%;
+    }
 }
