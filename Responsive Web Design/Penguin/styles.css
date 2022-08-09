@@ -21,6 +21,7 @@ body {
     );
     z-index: 3;
     position: absolute;
+    margin-top: -58px;
 }
 
 .penguin {
@@ -37,4 +38,5 @@ body {
     position: absolute;
     transform: skew(0deg, 44deg);
     z-index: 2;
+    margin-top: 100px;
 }
