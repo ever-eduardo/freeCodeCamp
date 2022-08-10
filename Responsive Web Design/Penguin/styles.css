@@ -49,4 +49,8 @@ body {
         rgb(47, 170, 255)
     );
     position: absolute;
+    z-index: 1;
+    transform: rotate(45deg);
+    left: 110px;
+    top: 225px;
 }
