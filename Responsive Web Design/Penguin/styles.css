@@ -72,7 +72,7 @@ body {
     border-radius: 50%;
     position: absolute;
     top: -75px;
-    left: 125px;
+    right: -75px;
 }
 
 .penguin-head {
@@ -94,9 +94,9 @@ body {
     height: 45%;
     background: linear-gradient(
         45deg,
-        0% rgb(134, 133, 133),
-        25% rgb(234, 231, 231),
-        67% white
+        rgb(134, 133, 133) 0%,
+        rgb(234, 231, 231) 25%,
+        white 67%
     );
     border-radius: 80% 80% 100% 100%;
     top: 40%;
