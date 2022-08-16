@@ -1,6 +1,45 @@
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #be3144;
+    --main-blue: #45567d;
+    --main-gray: #303841;
+}
+
 *, ::before, ::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    font-size: 100%; /* 16 px */
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--main-white);
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--main-red);
+    z-index: 10;
+}
+
+.nav-list {
+    display: flex;
+    margin-right: 2rem;
+    list-style: none;
+}
+
+.nav-list a {
+    display: block;
+    text-decoration: none;
+    font-size: 2.3rem;
+    padding: 0.2rem 0.7rem;
+}
+
+.nav-list a:hover {
+    background-color: var(--main-blue);
 }
