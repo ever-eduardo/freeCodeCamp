@@ -64,3 +64,18 @@
 .welcome-section p {
     font-size: 2.5rem;
 }
+
+/* Projects Section */
+#projects {
+    background-color: var(--main-blue);
+    text-align: center;
+    padding: 2rem 2rem;
+}
+
+.projects-section-header {
+    font-size: 2.5rem;
+}
+
+#show-all-link {
+    font-size: 1.5rem;
+}
