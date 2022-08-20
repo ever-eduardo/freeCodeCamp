@@ -66,20 +66,43 @@
 }
 
 /* Projects Section */
-#projects {
+#projects-section {
     background-color: var(--main-blue);
     text-align: center;
-    padding: 2rem 2rem;
+    padding: 5rem 2rem;
 }
 
 .projects-section-header {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    margin-bottom: 3rem;
 }
 
 .projects-grid {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4rem;
+    max-width: 1280px;
+    margin-bottom: 6rem;
+}
+
+.project {
+    background: var(--main-gray);
+    text-decoration: none;
+    width: fit-content;
+}
+
+.project-image {
+    width: 50rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.project-title {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
 #show-all-link {
     font-size: 1.5rem;
+    padding-top: 5rem;
 }
