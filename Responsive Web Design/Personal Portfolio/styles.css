@@ -137,6 +137,18 @@
     font-size: 1.5rem;
 }
 
+.contact-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    padding-left: 11rem;
+    padding-right: 11rem;
+}
+
+.contact-links a {
+    text-decoration: none;
+}
+
 footer {
     display: flex;
     justify-content: space-evenly;
