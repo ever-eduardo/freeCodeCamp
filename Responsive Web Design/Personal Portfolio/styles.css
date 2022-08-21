@@ -105,7 +105,6 @@
     padding-top: 1rem;
     padding-bottom: 2rem;
     font-size: 1.8rem;
-    position: relative;
 }
 
 #show-all-link {
@@ -118,12 +117,24 @@
 #show-all-link:hover {
     background-color: var(--main-white);
     color: var(--main-red);
-    font-size: 1,5rem;
+    font-size: 1.5rem;
     font-weight: 800;
 }
 
 #contact {
     background-color: var(--main-gray);
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    height: 30rem;
+}
+
+.contact-section-header h2 {
+    font-size: 3rem;
+}
+
+.contact-section-header p {
+    font-size: 1.5rem;
 }
 
 footer {
