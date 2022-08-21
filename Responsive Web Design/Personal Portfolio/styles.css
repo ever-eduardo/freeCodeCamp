@@ -79,20 +79,24 @@
 
 .projects-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 4rem;
     max-width: 1280px;
-    margin-bottom: 6rem;
+    width: 100%;
+    min-height: 100vh;
+    margin-bottom: 3rem;
 }
 
 .project {
     background: var(--main-gray);
     text-decoration: none;
-    width: fit-content;
+    margin: 2rem 2rem;
 }
 
 .project-image {
-    width: 50rem;
+    width: 100%;
+    object-fit: cover;
+    height: calc(100% - 10.5rem);
     text-align: center;
     padding-top: 2rem;
 }
@@ -100,9 +104,33 @@
 .project-title {
     padding-top: 1rem;
     padding-bottom: 2rem;
+    font-size: 1.8rem;
+    position: relative;
 }
 
 #show-all-link {
     font-size: 1.5rem;
-    padding-top: 5rem;
+    padding: 1rem 5rem;
+    text-decoration: none;
+    background-color: var(--main-red);
+}
+
+#show-all-link:hover {
+    background-color: var(--main-white);
+    color: var(--main-red);
+    font-size: 1,5rem;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 320px) {
+    
+}
+
+
+@media screen and (max-width: 480px) {
+    
+}
+
+@media screen and (max-width: 720px) {
+    
 }
