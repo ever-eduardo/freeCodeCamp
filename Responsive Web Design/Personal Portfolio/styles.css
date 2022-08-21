@@ -54,7 +54,7 @@
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: black;
+    background-color: var(--main-gray);
 }
 
 .welcome-section h1 {
@@ -120,6 +120,19 @@
     color: var(--main-red);
     font-size: 1,5rem;
     font-weight: 800;
+}
+
+#contact {
+    background-color: var(--main-gray);
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 400;
+    padding: 3.7rem;
+    border-top: 5px solid var(--main-red);
+    background-color: var(--main-gray);
 }
 
 @media screen and (max-width: 320px) {
